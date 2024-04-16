@@ -13,7 +13,7 @@
     "bluebird": "^3.3.3",
     "buffer-crc32": "^0.2.5",
     "hashring": "^3.2.0",
-    "lodash": "^4.5.0",
+    "lodash": "^4.17.17",
     "nice-simple-logger": "^1.0.1",
     "snappyjs": "^0.6.0",
     "wrr-pool": "^1.0.3"
