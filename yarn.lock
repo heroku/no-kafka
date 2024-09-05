@@ -95,12 +95,13 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-bin-protocol@^3.0.0:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/bin-protocol/-/bin-protocol-3.0.4.tgz#465a9d3506feb0e126b52b5b2160d936e15b27f4"
+bin-protocol@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/bin-protocol/-/bin-protocol-3.1.1.tgz#8c1e59febc789f7eb71b48de8d6354d53ff1c5f1"
+  integrity sha512-9vCGfaHC2GBHZwGQdG+DpyXfmLvx9uKtf570wMLwIc9wmTIDgsdCBXQxTZu5X2GyogkfBks2Ode4N0sUVxJ2qQ==
   dependencies:
-    lodash "^4.1.0"
-    long "^3.0.3"
+    lodash "^4.17.11"
+    long "^4.0.0"
     protocol-buffers-schema "^3.0.0"
 
 bluebird@^3.3.3:
@@ -742,17 +743,23 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lodash@^4.0.0, lodash@^4.0.1, lodash@^4.1.0, lodash@^4.3.0, lodash@^4.5.0:
+lodash@^4.0.0, lodash@^4.3.0, lodash@^4.5.0:
   version "4.17.5"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+
+lodash@^4.17.11:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lolex@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/lolex/-/lolex-1.3.2.tgz#7c3da62ffcb30f0f5a80a2566ca24e45d8a01f31"
 
-long@^3.0.3:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/long/-/long-3.2.0.tgz#d821b7138ca1cb581c172990ef14db200b5c474b"
+long@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
+  integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
 
 longest@^1.0.1:
   version "1.0.1"
@@ -1204,11 +1211,12 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-wrr-pool@^1.0.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/wrr-pool/-/wrr-pool-1.1.3.tgz#fdad22f2ea1f30363ffe5d781cf79497a77ff07e"
+wrr-pool@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/wrr-pool/-/wrr-pool-1.1.4.tgz#ed8a62c38f1585cbbffa25a4d72a100be8f19406"
+  integrity sha512-+lEdj42HlYqmzhvkZrx6xEymj0wzPBxqr7U1Xh9IWikMzOge03JSQT9YzTGq54SkOh/noViq32UejADZVzrgAg==
   dependencies:
-    lodash "^4.0.1"
+    lodash "^4.17.11"
 
 xtend@^4.0.0:
   version "4.0.1"
